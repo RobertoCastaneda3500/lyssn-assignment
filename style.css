@@ -29,3 +29,20 @@ body {
 .names:hover {
   background: lightgray;
 }
+@media (max-width: 375px) {
+  #app {
+    margin-top: 210px;
+  }
+}
+@media (max-width: 320px) {
+  #app {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 280px) {
+  #app {
+    margin-top: 175px;
+    width: 100px;
+  }
+}
