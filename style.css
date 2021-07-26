@@ -1,3 +1,5 @@
+/*css set up */
+
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +31,8 @@ body {
 .names:hover {
   background: lightgray;
 }
+
+/* @media queries for phone users  */
 @media (max-width: 375px) {
   #app {
     margin-top: 210px;
